@@ -1,0 +1,104 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\unity\\projects\\my project\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\my project\\assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|d:\\unity\\projects\\my project\\assets\\script\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\my project\\assets\\script\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|d:\\unity\\projects\\my project\\assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\my project\\assets\\script\\blade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\blade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Bomb.cs",
+              "DocumentMoniker": "D:\\unity\\projects\\my project\\Assets\\Script\\Bomb.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Bomb.cs",
+              "ToolTip": "D:\\unity\\projects\\my project\\Assets\\Script\\Bomb.cs",
+              "RelativeToolTip": "Assets\\Script\\Bomb.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T11:04:22.026Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameManager.cs",
+              "DocumentMoniker": "D:\\unity\\projects\\my project\\Assets\\Script\\GameManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
+              "ToolTip": "D:\\unity\\projects\\my project\\Assets\\Script\\GameManager.cs",
+              "RelativeToolTip": "Assets\\Script\\GameManager.cs",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAwwF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T10:47:01.298Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fruit.cs",
+              "DocumentMoniker": "D:\\unity\\projects\\my project\\Assets\\Script\\Fruit.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Fruit.cs",
+              "ToolTip": "D:\\unity\\projects\\my project\\Assets\\Script\\Fruit.cs",
+              "RelativeToolTip": "Assets\\Script\\Fruit.cs",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAYwCgAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T09:59:27.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Blade.cs",
+              "DocumentMoniker": "D:\\unity\\projects\\my project\\Assets\\Script\\Blade.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Blade.cs",
+              "ToolTip": "D:\\unity\\projects\\my project\\Assets\\Script\\Blade.cs",
+              "RelativeToolTip": "Assets\\Script\\Blade.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T16:53:46.221Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Spawner.cs",
+              "DocumentMoniker": "D:\\unity\\projects\\my project\\Assets\\Script\\Spawner.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\Spawner.cs",
+              "ToolTip": "D:\\unity\\projects\\my project\\Assets\\Script\\Spawner.cs",
+              "RelativeToolTip": "Assets\\Script\\Spawner.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-29T16:10:32.587Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
