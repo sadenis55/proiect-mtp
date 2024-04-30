@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
 {
     public Text scoreText;
     public Image fadeImage;
+    public Button playAgain;
 
     private int score;
 
@@ -22,8 +23,15 @@ public class GameManager : MonoBehaviour
         NewGame();
     }
 
+    public void playAgainButton()
+    {
+        NewGame();
+    }
+
     private void NewGame()
     {
+        playAgain.gameObject.SetActive(false);
+
         Time.timeScale = 1f;
 
         blade.enabled = true;
@@ -64,6 +72,8 @@ public class GameManager : MonoBehaviour
         spawner.enabled = false;
 
         StartCoroutine(ExplodeSequence());
+
+        
     }
 
     private IEnumerator ExplodeSequence()
@@ -81,9 +91,12 @@ public class GameManager : MonoBehaviour
 
             yield return null;
         }
-        yield return new WaitForSecondsRealtime(1f);
 
-        NewGame();
+        playAgain.gameObject.SetActive(true);
+
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) && RectTransformUtility.RectangleContainsScreenPoint(playAgain.GetComponent<RectTransform>(), Input.mousePosition));
+
+        playAgainButton();
 
         elapsed = 0f;
 
