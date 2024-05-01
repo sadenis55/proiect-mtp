@@ -1,4 +1,5 @@
 using System.Collections;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -8,7 +9,13 @@ public class GameManager : MonoBehaviour
     public Image fadeImage;
     public Button playAgain;
 
+    public TMP_Text textCS;
+    public TMP_Text textHS;
+    public TMP_Text currentScore;
+    public TMP_Text highScore;
+
     private int score;
+    private int highscore;
 
     private Blade blade;
     private Spawner spawner;
@@ -30,6 +37,10 @@ public class GameManager : MonoBehaviour
 
     private void NewGame()
     {
+        textCS.gameObject.SetActive(false);
+        currentScore.gameObject.SetActive(false);
+        textHS.gameObject.SetActive(false);
+        highScore.gameObject.SetActive(false);
         playAgain.gameObject.SetActive(false);
 
         Time.timeScale = 1f;
@@ -66,6 +77,27 @@ public class GameManager : MonoBehaviour
         scoreText.text = score.ToString();
     }
 
+    public void UpdateHighScore()
+    {
+        if (PlayerPrefs.HasKey("SavedHighScore"))
+        {
+            highscore = PlayerPrefs.GetInt("SavedHighScore");
+            score = score - 10;
+            if (score > highscore)
+            {
+                PlayerPrefs.SetInt("SavedHighScore", score);
+                highscore = score;
+            }
+        }
+        else
+        {
+            PlayerPrefs.SetInt("SavedHighScore", score);
+            highscore = score;
+        }
+        currentScore.text = scoreText.text;
+        highScore.text = highscore.ToString();
+    }
+
     public void Explode()
     {
         blade.enabled = false;
@@ -92,11 +124,16 @@ public class GameManager : MonoBehaviour
             yield return null;
         }
 
+        textCS.gameObject.SetActive(true);
+        currentScore.gameObject.SetActive(true);
+        textHS.gameObject.SetActive(true);
+        highScore.gameObject.SetActive(true);
+
         playAgain.gameObject.SetActive(true);
 
-        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) && RectTransformUtility.RectangleContainsScreenPoint(playAgain.GetComponent<RectTransform>(), Input.mousePosition));
+        UpdateHighScore();
 
-        playAgainButton();
+        yield return new WaitUntil(() => Input.GetMouseButtonDown(0) && RectTransformUtility.RectangleContainsScreenPoint(playAgain.GetComponent<RectTransform>(), Input.mousePosition));
 
         elapsed = 0f;
 
