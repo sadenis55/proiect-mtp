@@ -356,6 +356,7 @@
 "Assets/Script/Bomb.cs"
 "Assets/Script/Fruit.cs"
 "Assets/Script/GameManager.cs"
+"Assets/Script/MainMenuScript.cs"
 "Assets/Script/Spawner.cs"
 -langversion:9.0
 /deterministic

@@ -1,6 +1,7 @@
 using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
@@ -8,6 +9,7 @@ public class GameManager : MonoBehaviour
     public Text scoreText;
     public Image fadeImage;
     public Button playAgain;
+    public Button mainmenubutton;
 
     public TMP_Text textCS;
     public TMP_Text textHS;
@@ -35,6 +37,11 @@ public class GameManager : MonoBehaviour
         NewGame();
     }
 
+    public void mainMenu()
+    {
+        SceneManager.LoadScene(0);
+    }
+
     private void NewGame()
     {
         textCS.gameObject.SetActive(false);
@@ -42,6 +49,7 @@ public class GameManager : MonoBehaviour
         textHS.gameObject.SetActive(false);
         highScore.gameObject.SetActive(false);
         playAgain.gameObject.SetActive(false);
+        mainmenubutton.gameObject.SetActive(false);
 
         Time.timeScale = 1f;
 
@@ -82,17 +90,18 @@ public class GameManager : MonoBehaviour
         if (PlayerPrefs.HasKey("SavedHighScore"))
         {
             highscore = PlayerPrefs.GetInt("SavedHighScore");
+            score = int.Parse(scoreText.text);
             score = score - 10;
             if (score > highscore)
             {
                 PlayerPrefs.SetInt("SavedHighScore", score);
-                highscore = score;
+                highscore = score + 10;
             }
         }
         else
         {
             PlayerPrefs.SetInt("SavedHighScore", score);
-            highscore = score;
+            highscore = score + 10;
         }
         currentScore.text = scoreText.text;
         highScore.text = highscore.ToString();
@@ -130,6 +139,7 @@ public class GameManager : MonoBehaviour
         highScore.gameObject.SetActive(true);
 
         playAgain.gameObject.SetActive(true);
+        mainmenubutton.gameObject.SetActive(true);
 
         UpdateHighScore();
 
