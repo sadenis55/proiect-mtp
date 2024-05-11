@@ -1,11 +1,16 @@
 using System.Collections;
+using System.Runtime.Serialization;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    public static bool gameIsPaused = false;
+    public GameObject pauseMenuUI;
+
     public Text scoreText;
     public Image fadeImage;
     public Button playAgain;
@@ -27,6 +32,36 @@ public class GameManager : MonoBehaviour
         blade = FindObjectOfType<Blade>();
         spawner = FindObjectOfType<Spawner>();
     }
+
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Escape))
+        {
+            if(gameIsPaused)
+            {
+                Resume();
+            }
+            else
+            {
+                Pause();
+            }
+        }
+    }
+
+    public void Resume()
+    {
+        pauseMenuUI.SetActive(false);
+        Time.timeScale = 1f;
+        gameIsPaused = false;
+    }
+
+    void Pause()
+    {
+        pauseMenuUI.SetActive(true);
+        Time.timeScale = 0f;
+        gameIsPaused = true;
+    }
+
     private void Start()
     {
         NewGame();
@@ -113,8 +148,6 @@ public class GameManager : MonoBehaviour
         spawner.enabled = false;
 
         StartCoroutine(ExplodeSequence());
-
-        
     }
 
     private IEnumerator ExplodeSequence()
