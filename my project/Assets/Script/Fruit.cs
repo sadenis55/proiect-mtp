@@ -4,6 +4,7 @@ public class Fruit : MonoBehaviour
 {
     public GameObject whole;
     public GameObject sliced;
+    public GameAudio gameAudio;
 
     private Rigidbody fruitRigidbody;
     private Collider fruitCollider;
@@ -14,10 +15,12 @@ public class Fruit : MonoBehaviour
         fruitRigidbody = GetComponent<Rigidbody>();
         fruitCollider = GetComponent<Collider>();
         juiceParticleEffect = GetComponentInChildren<ParticleSystem>();
+        gameAudio = GameObject.FindGameObjectWithTag("audio").GetComponent<GameAudio>();
     }
 
     private void Slice(Vector3 direction, Vector3 position, float force)
     {
+        gameAudio.PlaySFX(gameAudio.slice);
         FindObjectOfType<GameManager>().IncreaseScore();
 
         whole.SetActive(false);
@@ -36,6 +39,7 @@ public class Fruit : MonoBehaviour
             r.velocity = fruitRigidbody.velocity;
             r.AddForceAtPosition(direction * force, position, ForceMode.Impulse);
         }
+        
     }
 
     private void OnTriggerEnter(Collider other)

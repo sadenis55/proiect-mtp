@@ -144,6 +144,8 @@ public class GameManager : MonoBehaviour
 
     public void Explode()
     {
+
+
         blade.enabled = false;
         spawner.enabled = false;
 

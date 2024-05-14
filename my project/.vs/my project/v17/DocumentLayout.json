@@ -7,24 +7,32 @@
       "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gamemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|d:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\mainmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mainmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\blade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\blade.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\bomb.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|d:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\menuaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\menuaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\fruit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|d:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\gameaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\gameaudio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\spawner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|D:\\unity\\projects\\proiect-mtp\\my project\\assets\\script\\mainmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{20161AFB-0112-7D4A-7F8C-D2783D8F2097}|Assembly-CSharp.csproj|solutionrelative:assets\\script\\mainmenuscript.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,11 +42,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
+              "Title": "GameAudio.cs",
+              "DocumentMoniker": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\GameAudio.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\GameAudio.cs",
+              "ToolTip": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\GameAudio.cs",
+              "RelativeToolTip": "Assets\\Script\\GameAudio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T11:09:44.428Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MenuAudio.cs",
+              "DocumentMoniker": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\MenuAudio.cs",
+              "RelativeDocumentMoniker": "Assets\\Script\\MenuAudio.cs",
+              "ToolTip": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\MenuAudio.cs",
+              "RelativeToolTip": "Assets\\Script\\MenuAudio.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-14T11:01:58.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "MainMenuScript.cs",
               "DocumentMoniker": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\MainMenuScript.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\MainMenuScript.cs",
@@ -46,20 +80,20 @@
               "RelativeToolTip": "Assets\\Script\\MainMenuScript.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-06T12:59:53.352Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-06T12:59:53.352Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
               "Title": "Bomb.cs",
               "DocumentMoniker": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\Bomb.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Bomb.cs",
               "ToolTip": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\Bomb.cs",
               "RelativeToolTip": "Assets\\Script\\Bomb.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA2AAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T11:04:22.026Z"
+              "WhenOpened": "2024-04-30T11:04:22.026Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -69,46 +103,49 @@
               "RelativeDocumentMoniker": "Assets\\Script\\GameManager.cs",
               "ToolTip": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\GameManager.cs",
               "RelativeToolTip": "Assets\\Script\\GameManager.cs",
-              "ViewState": "AQIAADUAAAAAAAAAAAArwD4AAAAFAAAA",
+              "ViewState": "AQIAAIUAAAAAAAAAAAAcwJIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-30T10:47:01.298Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Fruit.cs",
               "DocumentMoniker": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\Fruit.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Fruit.cs",
               "ToolTip": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\Fruit.cs",
               "RelativeToolTip": "Assets\\Script\\Fruit.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAdAAAA",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBEAAABYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-30T09:59:27.264Z"
+              "WhenOpened": "2024-04-30T09:59:27.264Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Blade.cs",
               "DocumentMoniker": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\Blade.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Blade.cs",
               "ToolTip": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\Blade.cs",
               "RelativeToolTip": "Assets\\Script\\Blade.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwAwAAAAhAAAA",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowAwAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T16:53:46.221Z"
+              "WhenOpened": "2024-04-29T16:53:46.221Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "Spawner.cs",
               "DocumentMoniker": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\Spawner.cs",
               "RelativeDocumentMoniker": "Assets\\Script\\Spawner.cs",
               "ToolTip": "D:\\unity\\projects\\proiect-mtp\\my project\\Assets\\Script\\Spawner.cs",
               "RelativeToolTip": "Assets\\Script\\Spawner.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAAwBUAAAAgAAAA",
+              "ViewState": "AQIAADQAAAAAAAAAAAAkwBUAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-29T16:10:32.587Z"
+              "WhenOpened": "2024-04-29T16:10:32.587Z",
+              "EditorCaption": ""
             }
           ]
         }

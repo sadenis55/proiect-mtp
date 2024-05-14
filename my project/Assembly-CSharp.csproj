@@ -60,7 +60,9 @@
     <Analyzer Include="D:\unity\2022.3.26f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Script\GameAudio.cs" />
     <Compile Include="Assets\Script\Bomb.cs" />
+    <Compile Include="Assets\Script\MenuAudio.cs" />
     <Compile Include="Assets\Script\Spawner.cs" />
     <Compile Include="Assets\Script\Blade.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
