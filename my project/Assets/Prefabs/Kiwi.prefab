@@ -120,13 +120,25 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[1]
       value: 
       objectReference: {fileID: 2100000, guid: 2a0252444c1b26440a2e3d68eb7a9128, type: 2}
+    - target: {fileID: 6094528753893214610, guid: 6cce8d8337dacfd4d8f832229c91e3a8, type: 3}
+      propertyPath: m_TagString
+      value: half
+      objectReference: {fileID: 0}
     - target: {fileID: 6209948711940472395, guid: 6cce8d8337dacfd4d8f832229c91e3a8, type: 3}
       propertyPath: m_Name
       value: Kiwi
       objectReference: {fileID: 0}
+    - target: {fileID: 6209948711940472395, guid: 6cce8d8337dacfd4d8f832229c91e3a8, type: 3}
+      propertyPath: m_TagString
+      value: fruit
+      objectReference: {fileID: 0}
     - target: {fileID: 6560056772083865603, guid: 6cce8d8337dacfd4d8f832229c91e3a8, type: 3}
       propertyPath: m_IsActive
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9173196790822812521, guid: 6cce8d8337dacfd4d8f832229c91e3a8, type: 3}
+      propertyPath: m_TagString
+      value: half
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

@@ -67,6 +67,7 @@
     <Compile Include="Assets\Script\Blade.cs" />
     <Compile Include="Assets\Script\GameManager.cs" />
     <Compile Include="Assets\Script\Fruit.cs" />
+    <Compile Include="Assets\Script\MistakesCollider.cs" />
     <Compile Include="Assets\Script\MainMenuScript.cs" />
   </ItemGroup>
   <ItemGroup>

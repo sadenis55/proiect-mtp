@@ -10,14 +10,20 @@ public class Fruit : MonoBehaviour
     private Collider fruitCollider;
     private ParticleSystem juiceParticleEffect;
 
+    public bool IsSliced { get; private set; } = false;
+
+    public int NumOfPasses { get; set; } = 0;
+
+    public float startTime;
+
     private void Awake()
     {
         fruitRigidbody = GetComponent<Rigidbody>();
         fruitCollider = GetComponent<Collider>();
         juiceParticleEffect = GetComponentInChildren<ParticleSystem>();
         gameAudio = GameObject.FindGameObjectWithTag("audio").GetComponent<GameAudio>();
+        startTime = Time.time;
     }
-
     private void Slice(Vector3 direction, Vector3 position, float force)
     {
         gameAudio.PlaySFX(gameAudio.slice);
@@ -25,6 +31,7 @@ public class Fruit : MonoBehaviour
 
         whole.SetActive(false);
         sliced.SetActive(true);
+        IsSliced = true;
 
         fruitCollider.enabled = false;
         juiceParticleEffect.Play();

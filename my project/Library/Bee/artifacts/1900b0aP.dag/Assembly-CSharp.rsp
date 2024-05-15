@@ -310,8 +310,11 @@
 "Assets/Script/Blade.cs"
 "Assets/Script/Bomb.cs"
 "Assets/Script/Fruit.cs"
+"Assets/Script/GameAudio.cs"
 "Assets/Script/GameManager.cs"
 "Assets/Script/MainMenuScript.cs"
+"Assets/Script/MenuAudio.cs"
+"Assets/Script/MistakesCollider.cs"
 "Assets/Script/Spawner.cs"
 -langversion:9.0
 /deterministic

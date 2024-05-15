@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Runtime.Serialization;
 using TMPro;
@@ -11,6 +12,7 @@ public class GameManager : MonoBehaviour
     public static bool gameIsPaused = false;
     public GameObject pauseMenuUI;
 
+    public TMP_Text mistakesText;
     public Text scoreText;
     public Image fadeImage;
     public Button playAgain;
@@ -26,9 +28,11 @@ public class GameManager : MonoBehaviour
 
     private Blade blade;
     private Spawner spawner;
+    private MistakesCollider col;
 
     private void Awake()
     {
+        col = FindAnyObjectByType<MistakesCollider>();
         blade = FindObjectOfType<Blade>();
         spawner = FindObjectOfType<Spawner>();
     }
@@ -46,6 +50,7 @@ public class GameManager : MonoBehaviour
                 Pause();
             }
         }
+        GameOver();
     }
 
     public void Resume()
@@ -93,6 +98,8 @@ public class GameManager : MonoBehaviour
 
         score = 0;
         scoreText.text = score.ToString();
+        col.NumOfMistakes = 0;
+        col.mistakesText.text = "";
 
         ClearScene();
     }
@@ -142,10 +149,17 @@ public class GameManager : MonoBehaviour
         highScore.text = highscore.ToString();
     }
 
+    private void GameOver()
+    {
+        if (mistakesText.text == "XXX")
+        {
+            mistakesText.text = "";
+            Explode();
+        }
+    }
+
     public void Explode()
     {
-
-
         blade.enabled = false;
         spawner.enabled = false;
 
